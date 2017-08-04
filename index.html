@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Royal Design</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+body
+{
+	margin: 0px;
+}
+.container
+{
+	width: 90%;
+	height: auto;
+	margin:0px auto;
+}
+.header
+{
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	background:rgba(6,119,120,.4);
+}
+
+.social_style
+{
+	width: 18%;
+	height: 40px;
+	margin:5px 0px;
+	float: left;
+}
+.social
+{
+	width:55%;
+	height: 40px;
+	margin:0px 2px;
+	float: left;
+}
+
+.social p
+{
+	margin: 10px;
+	text-align: center;
+	color: white;
+}
+
+.social_icon
+{
+	width:35%;
+	height: 40px;
+	margin:0px 2px;
+	float: left;
+}
+
+.social_icon i
+{
+	padding: 14px 2px;
+	color: white;
+}
+
+#rss
+{
+	color: orange;
+}
+#fb
+{
+	color:blue;
+}
+#twitter
+{
+	color:#99E1ED;
+}
+
+.header_right
+{
+	width:50%;
+	height: 40px;
+	margin:5px;
+	float: right;
+}
+.header_text
+{
+	width:25%;
+	height: 40px;
+	margin:0px 5px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.header_search
+{
+	width: 45%;
+	height: 40px;
+	margin:0px;
+	float: left;
+}
+.searchTerm
+{
+	width: 200px;
+	height: 30px;
+	margin: 4px;
+	position: relative;
+	background-color:#114355;
+	border: 0;
+	color: #fff;
+	outline: none;
+}
+
+.searchBtn
+{
+	width: 33px;
+	height: 28px;
+	margin: 6px;
+	float: left;
+	border: 0px;
+	position: absolute;
+	background-color: #1D5F77;	
+	border-radius: 5px;
+	right:149px;
+	outline: none;
+}
+/*background-img*/
+.background
+{
+	width:100%;
+	height: 700px;
+	background-image:url(6935544-blue-backgrounds-hd.jpg);
+	background-attachment:fixed;
+	background-size: cover; 
+
+}
+
+/*container_wrapper*/
+
+.container_wrapper {
+	width:100%;
+	height: 60px;
+	margin: 10px auto;
+	border-bottom: 2px solid gray;
+}
+
+.logo {
+	width: 25%;
+	height: 50px;
+	margin: 5px 0px;
+	float: left;
+}
+
+.logo h2
+{
+	margin:0;
+	color: #fff;
+	font-size: 24px;
+	font-family: sans-serif;
+}
+.logo p
+{
+	margin:0;
+	color: #fff;
+	font-size:14px;
+	font-family: sans-serif;
+}
+.navbar {
+	width: 50%;
+	height: 50px;
+	margin:5px auto;
+	float:right;
+}
+
+.navbar ul
+{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.navbar ul li
+{
+	display: inline;
+}
+.navbar ul li a
+{
+	color:white;
+	display: block;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	margin:0 1px;
+	float: left;
+	padding: 0px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	width: 111px;
+}
+.navbar ul li a:hover, .active
+{
+	color: #000;
+	background-color: #76D6EE;
+	border-radius: 6px;
+}
+
+.paragraph
+{
+	width:100%;
+	height: 100px;
+	margin: 0px;
+}
+.paragraph_Text
+{
+  width: 70%;
+  height: 80px;
+  margin: 10px;
+  float: left;
+}
+.paragraph_Text p
+{
+	color: #fff;
+}
+.btn
+{
+  width: 20%;
+  height: 40px;
+  margin:30px 0;
+  float: right;
+}
+
+.click
+{
+	width: 220px;
+	height: 40px;
+	margin:0;
+	background: #FBEFF3;
+	box-shadow:0 5px 5px #000; 
+}
+.click a
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+}
+/*slider*/
+
+.slider
+{
+	width:90%;
+	height:400px;
+	margin:0px;
+	background-image:url(http://s1.postimg.org/jo7xuaqvz/barossa_banner.jpg);
+	background-repeat: no-repeat;
+	background-attachment:;
+	background-size: cover;
+	position:absolute;
+	top: 350px;
+	box-shadow: 0px 5px 50px #000;
+}
+
+
+.left-arrow
+{
+    width: 83px;
+    height: 83px;
+    margin: 156.5px 0px;
+    float: left;
+}
+
+.right-arrow
+{
+    width: 83px;
+    height: 83px;
+    margin: 156.5px 0px;
+    float:right;
+}
+.wrapper
+{
+	width: 100%;
+	height: 1000px;
+	margin: 0px auto;
+	background-color:;
+	overflow: hidden;
+}
+.content
+{
+	width: 100%;
+	height: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.welcome_Text
+{
+	width: 100%;
+	height: 160px;
+	margin: 100px auto;
+	background-color:#F7F7F7;
+	box-shadow:  0 0 1px 1px #ccc;
+}
+
+.welcome_Text h1
+{
+	font-size: 24px;
+	padding: 10px;
+	margin:0;
+	font-family: sans-serif;
+}
+.wrapper_img
+{
+	width: 10%;
+	height: 80px;
+	margin: 10px 5px 0 0;
+	float: left;
+}
+.wrapper_text
+{
+	width: 80%;
+	height: 80px;
+	margin: 10px 5px;
+	float: left;
+}
+
+.choose_Text
+{
+	width: 100%;
+	height: 160px;
+	margin: 100px auto;
+}
+
+.choose_Text h1
+{
+	font-size: 24px;
+	padding: 10px;
+	margin:0;
+	font-family: sans-serif;
+}
+.choose_img
+{
+	width: 10%;
+	height: 80px;
+	margin: 10px 5px 0 0%;
+	float: left;
+}
+.choose_text
+{
+	width: 80%;
+	height: 80px;
+	margin: 10px 5px;
+	float: left;
+}
+
+
+.service
+{
+	height: 300px;
+	width: 100%;
+	margin:0px;
+}
+
+.service_box {
+	  width: 32%;
+    height: 300px;
+    margin: 0px 15px 0 0;
+    float: left;
+}
+.service_box h2
+{
+	font-size: 26px;
+	margin: 0px;
+}
+.service_box p
+{
+	margin:5px;
+	color: #76BEF3;
+}
+.service_img {
+	width: 100%;
+	height: 120px;
+	margin:0 0 5px 0;
+}
+
+.service_text {
+	width: 100%;
+	height: 100px;
+	margin:0px;
+}
+.service_text p
+{
+	margin:0;
+	color: black;
+
+}
+.footer
+{
+	width: 100%;
+	height: 80px;
+	margin-left: 0px;
+	background:-moz-linear-gradient(top,#000 30%,#0F2429 70%);
+	background:-webkit-linear-gradient(top,#000 30%,#0F2429 70%);
+	overflow: hidden;
+}
+.footer_logo
+{
+	width: 20%;
+	height: 60px;
+	margin: 10px 0;
+	float: left;
+}
+.footer_logo h2
+{
+	font-size: 24px;
+	color: white;
+	margin: 5px;
+}
+.footer_logo p
+{
+	font-size: 14px;
+	color: white;
+	margin: 5px;
+}
+
+.copyright
+{
+	width: 26%;
+	height: 60px;
+	margin: 10px;
+	float: right;
+}
+
+.copyright h2
+{
+	margin: 0;
+	font-size: 14px;
+	color: white;
+	font-weight: 500;
+	text-align: right;
+}
+.copyright p
+{
+	margin: 0;
+	font-size: 14px;
+	color: white;
+	text-align: right;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+  
+
+
+	<div class="background">
+	<div class="header">
+  	<div class="container">
+  		<div class="social_style">
+  			<div class="social">
+  			<p>Follow Us on</p>
+  		</div><!-- social -->
+  		<div class="social_icon">
+  			<i class="fa fa-rss" id="rss"></i>
+  			<i class="fa fa-facebook" id="fb"></i>
+  			<i class="fa fa-twitter" id="twitter"></i>
+  		</div><!-- social_icon -->
+  	   </div><!-- social_icon -->
+
+ 		<div class="header_right">
+ 			<div class="header_text">
+ 				lorem ipsum dolor sit
+ 			</div><!-- header_text -->
+ 			<div class="header_text">
+ 				lorem ipsum dolor sit
+ 			</div><!-- header_text -->
+ 			<div class="header_search">
+ 				<form>
+ 					<input type="text"  class="searchTerm" placeholder="Search">
+ 					<button type="submit" class="searchBtn">
+ 						<i class="fa fa-search"></i>
+ 					</button>
+ 				</form>
+ 			</div><!-- header_search -->
+ 		</div><!-- header_right -->
+  	</div><!-- container -->
+  </div><!-- header -->
+		<div class="container">
+			<div class="container_wrapper">
+				<div class="logo">
+					<h2>Royal design</h2>
+						<p>Lorem ipsum dolor</p>
+				</div><!-- logo -->
+				<div class="navbar">
+					<ul>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Our Team</a></li>
+						<li><a href="#">Client</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div><!-- navbar -->
+			</div><!-- container_wrapper -->
+		</div><!-- container -->
+		<div class="container">
+				<div class="paragraph">
+					<div class="paragraph_Text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+						</p>
+					</div><!-- paragraph_Text -->
+					<div class="btn">
+						<button type="submit" class="click" target="new_blank"><a href="https://www.facebook.com/">Click here to read full</a></button>
+					</div><!-- btn -->
+				</div><!-- paragraph -->
+			</div><!-- container -->
+			<div class="container">
+			    <div class="slider">
+			    	<div class="left-arrow">
+			    		<img src="http://s1.postimg.org/pwtrushwf/arrow_left.png">
+			    	</div>
+			    	<div class="right-arrow">
+			    		<img src="http://s1.postimg.org/ezsg60v4v/arrow_right.png" align="missing    margin: 156.5px 0px;">
+			    	</div>
+			    </div><!-- slider -->
+			</div><!-- container -->	
+	</div><!-- background-img-->
+
+        
+        <div class="content">
+        	<div class="wrapper">
+		   <div class="container">
+			<div class="welcome_Text">
+		     	<h1>Welcome to our website</h1>
+				<div class="wrapper_img">
+					<img src="http://s1.postimg.org/owem9cbkv/logo_eublad.png">
+				</div><!-- wrapper_img -->
+				<div class="wrapper_text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!-- wrapper_text -->
+			</div><!-- welcome_Text -->
+		</div><!--  container -->
+
+		<div class="container">
+			<div class="choose_Text">
+		     	<h1>Why Choose Us</h1>
+				<div class="choose_img">
+					<img src="http://s1.postimg.org/owem9cbkv/logo_eublad.png">
+				</div><!-- wrapper_img -->
+				<div class="choose_text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!-- wrapper_text -->
+			</div><!-- welcome_Text -->
+		</div><!--  container -->
+
+    
+
+
+
+    	<div class="container">
+    	<div class="service">
+			<div class="service_box">
+			  	<h2>Web developement</h2>
+			  	<p>lorem ipsum dolor sit amet</p>
+				<div class="service_img">
+				    <img src="http://s1.postimg.org/4ibl1r927/webnet_works_logo.png" alt="missing">
+					</div><!-- service_img -->
+    				<div class="service_text">
+    				<p>
+    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+    				</p>
+    				<span style="font-weight: bold;">Read more &raquo;</span>
+    				</div><!-- service_text -->
+    			</div><!-- service_box -->
+
+
+    			<div class="service_box">
+			  	<h2>Project Management</h2>
+			  	<p>lorem ipsum dolor sit amet</p>
+				<div class="service_img">
+				    <img src="http://s1.postimg.org/4ibl1r927/webnet_works_logo.png" alt="missing">
+					</div><!-- service_img -->
+    				<div class="service_text">
+    				<p>
+    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+    				</p>
+    				<span style="font-weight: bold;">Read more &raquo;</span>
+    				</div><!-- service_text -->
+    			</div><!-- service_box -->
+
+
+
+
+    			<div class="service_box">
+			  	<h2>Quality Support</h2>
+			  	<p>lorem ipsum dolor sit amet</p>
+				<div class="service_img">
+				   <img src="http://s1.postimg.org/4ibl1r927/webnet_works_logo.png" alt="missing">
+					</div><!-- service_img -->
+    				<div class="service_text">
+    				<p>
+    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+    				</p>
+    				<span style="font-weight: bold;">Read more &raquo;</span>
+    				</div><!-- service_text -->
+    			</div><!-- service_box -->
+				</div><!-- service -->
+    	</div>
+		</div><!-- wrapper -->
+        </div>
+
+
+	
+		
+
+
+		<div class="footer">
+			<div class="container">
+				<div class="footer_logo">
+					<h2>Royal design</h2>
+					<p>lorem ipsum dolor</p>
+				</div>
+				<div class="copyright">
+					<h2>&copy; Copyrights 2017 | All rights reserved by royal</h2>
+					<p>lorem ipsum dolor</p>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>
